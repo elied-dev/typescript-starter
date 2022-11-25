@@ -1,0 +1,5 @@
+{
+  "verbose": false,
+  "ignore": ["tmp/*", "cache/*", "k6/*"],
+  "ext": "js,cjs,json,ts,env"
+}

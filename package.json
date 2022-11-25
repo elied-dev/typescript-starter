@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "An unofficial starter for typescript projects",
+  "main": "src/index.ts",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "tsc --build",
+    "start:prod": "node dist/src/index.js",
+    "start:dev": "ts-node src/",
+    "start:watch": "nodemon src/index.ts"
+  },
+  "author": "Elie Drai",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node-dev": "^2.0.0"
+  }
+}
