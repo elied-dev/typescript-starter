@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/elied-dev/typescript-starter/compare/v1.0.0...v1.1.0) (2022-11-26)
+
+
+### Features
+
+* add end log ([e59a3ff](https://github.com/elied-dev/typescript-starter/commit/e59a3ff7ccfece00d34eebe6aa9df434b95dd557))
+
 ## 1.0.0 (2022-11-26)
 
 
