@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/elied-dev/typescript-starter/compare/v1.1.0...v2.0.0) (2022-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* set verbose
+
+### Features
+
+* set verbose ([85c9365](https://github.com/elied-dev/typescript-starter/commit/85c93655fd9cd88cfa55ca8a9cdce421e5cec124))
+
+
+### Bug Fixes
+
+* removing log quitting app ([5cddba0](https://github.com/elied-dev/typescript-starter/commit/5cddba0d648f73784fedd3a833ddfcf999c1d5b6))
+
 ## [1.1.0](https://github.com/elied-dev/typescript-starter/compare/v1.0.0...v1.1.0) (2022-11-26)
 
 
