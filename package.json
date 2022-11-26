@@ -8,7 +8,8 @@
     "build": "tsc --build",
     "start:prod": "node dist/src/index.js",
     "start:dev": "ts-node src/",
-    "start:watch": "nodemon src/index.ts"
+    "start:watch": "nodemon src/index.ts",
+    "release": "release-please"
   },
   "author": "Elie Drai",
   "license": "MIT",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^18.11.9",
     "nodemon": "^2.0.20",
+    "release-please": "^14.17.3",
     "ts-node-dev": "^2.0.0"
   }
 }
