@@ -28,10 +28,10 @@ repos:
       - id: mixed-line-ending
       - id: no-commit-to-branch
       - id: trailing-whitespace
-      - id: pretty-format-json
-        args:
-          - --autofix
-          - --no-sort-keys
+      # - id: pretty-format-json
+      #   args:
+      #     - --autofix
+      #     - --no-sort-keys
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 3.0.0
     hooks:
@@ -93,15 +93,6 @@ repos:
         args:
           - --schemafile
           - https://json.schemastore.org/dependabot-2.0.json
-      - id: check-jsonschema
-        name: Validate MarkdownLint
-        files: ^\.markdownlint(?:rc)?(?:\.(jsonc?|ya?ml))?$
-        types_or:
-          - yaml
-          - json
-        args:
-          - --schemafile
-          - https://json.schemastore.org/markdownlint.json
       - id: check-jsonschema
         name: Validate YamlLint
         files: ^\.yamllint(\.ya?ml)?$
@@ -176,11 +167,6 @@ repos:
       - id: identity
         stages:
           - manual
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.32.2
-    hooks:
-      - id: markdownlint-fix
-        name: Lint Markdown files
   - repo: https://github.com/maxwinterstein/shfmt-py
     rev: v3.4.3.1
     hooks:
